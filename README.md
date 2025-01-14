@@ -8,18 +8,19 @@ Created GraphQL Schema: Defines the types of data you can query and the relation
 GraphQL Resolver functions which provide the instructions for turning a GraphQL operation into data.
 
 Querying GraphQL with url http://localhost:8082/graphql port started in 8082
-{
-    getPerson(id: 1) {
-        id
-        name
-        email
-        bills {
-            id
-            description
-            amount
-        }
-    }
-}
+<br/>
+{<br/>
+    &nbsp;&nbsp;&nbsp; getPerson(id: 1) { <br/>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  id<br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  name<br/>
+       &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;email<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bills {<br/>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  id<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  description<br/>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; amount<br/>
+       &nbsp; &nbsp;}<br/>
+   &nbsp; }<br/>
+}<br/>
 
 
 Person Service: Manages personal information such as name, email, and a list of bills associated with the person.
