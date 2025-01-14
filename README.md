@@ -1,13 +1,13 @@
-This is a GraphQL demo project.
-GraphQL is Query Language for APIs and is server-side runtime for executing queries by using type system.
-It allows to request exactly the data needed and resolves over fetching and under fetching data with REST endpoints.
+This is a GraphQL demo project.<br/>
+GraphQL is Query Language for APIs and is server-side runtime for executing queries by using type system.<br/>
+It allows to request exactly the data needed and resolves over fetching and under fetching data with REST endpoints.<br/>
 
-GraphQLDemo
+<H3>GraphQLDemo</H3>
 
-Created GraphQL Schema: Defines the types of data you can query and the relationships between those types.
-GraphQL Resolver functions which provide the instructions for turning a GraphQL operation into data.
+Created GraphQL Schema: Defines the types of data you can query and the relationships between those types.<br/>
+GraphQL Resolver functions which provide the instructions for turning a GraphQL operation into data.<br/>
 
-Querying GraphQL with url http://localhost:8082/graphql port started in 8082
+Querying GraphQL with url http://localhost:8082/graphql
 <br/>
 {<br/>
     &nbsp;&nbsp;&nbsp; getPerson(id: 1) { <br/>
@@ -23,7 +23,7 @@ Querying GraphQL with url http://localhost:8082/graphql port started in 8082
 }<br/>
 
 
-Person Service: Manages personal information such as name, email, and a list of bills associated with the person.
+<H3>Person Service:</H3> Manages personal information such as name, email, and a list of bills associated with the person. Started in the port 8081<br/>
 
-Bill Service: Manages billing information and retrieves bills associated with a person.
+<H3>Bill Service:</H3> Manages billing information and retrieves bills associated with a person.Started in the port 8080<br/>
 
