@@ -1,0 +1,18 @@
+type Query {
+    getBill(id: ID!): Bill
+    getPerson(id: ID!): Person
+    getBillsByPerson(personId: ID!): [Bill]
+}
+
+type Bill {
+    id: ID!
+    description: String
+    amount: Float
+}
+
+type Person {
+    id: ID!
+    name: String
+    email: String
+    bills: [Bill]
+}
